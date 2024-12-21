@@ -5,12 +5,12 @@ AuraMart is a modern, scalable, and secure online shopping platform designed to 
 ## Features
 
 ### User Features
-Product Browsing: View detailed information on products, categorized for easy access.
-Search and Filter: Advanced search and filter options by category, size, color, price, and brand.
-Cart and Wishlist Management: Add, update, or remove items from the shopping cart and wishlist.
-Order Management: Place orders, track statuses, and view order histories.
-Feedback Submission: Leave product ratings and reviews.
-Secure Payment Gateway: Seamless and secure payment integration.
+- Product Browsing: View detailed information on products, categorized for easy access.
+- Search and Filter: Advanced search and filter options by category, size, color, price, and brand.
+- Cart and Wishlist Management: Add, update, or remove items from the shopping cart and wishlist.
+- Order Management: Place orders, track statuses, and view order histories.
+- Feedback Submission: Leave product ratings and reviews.
+- Secure Payment Gateway: Seamless and secure payment integration.
 
 ### Admin Features
 Inventory Management: Add, update, or delete product details, and track stock levels.
