@@ -1,25 +1,35 @@
-
 # AuraMart
 
-Welcome to AuraMart's GitHub organization! We are dedicated to building modern and scalable e-commerce solutions. Our goal is to deliver seamless shopping experiences through cutting-edge technology and innovation.
+AuraMart is a modern, scalable, and secure online shopping platform designed to provide users with a seamless e-commerce experience. Built with a client-server architecture, the platform utilizes React for the frontend, Spring Boot for the backend, and MySQL for data storage. It supports features like product browsing, shopping cart and wishlist management, order processing, inventory management, user authentication, feedback, and offers management.
 
-## Key Projects
+## Features
 
-### Frontend Repositories
-- [auramart-frontend](https://github.com/AuraMart/auramart-frontend): The original React-based frontend application.
-- [Auramart_NewFrontEnd](https://github.com/AuraMart/Auramart_NewFrontEnd): The latest version of the frontend, featuring enhanced performance and a new design.
+## User Features
+Product Browsing: View detailed information on products, categorized for easy access.
+Search and Filter: Advanced search and filter options by category, size, color, price, and brand.
+Cart and Wishlist Management: Add, update, or remove items from the shopping cart and wishlist.
+Order Management: Place orders, track statuses, and view order histories.
+Feedback Submission: Leave product ratings and reviews.
+Secure Payment Gateway: Seamless and secure payment integration.
 
-### Backend Repositories
-- [new1_backend](https://github.com/AuraMart/new1_backend): A Spring Boot-based backend for handling APIs and business logic.
-- [Auramart_NewBackend](https://github.com/AuraMart/Auramart_NewBackend): The updated backend with additional features and better scalability.
+## Admin Features
+Inventory Management: Add, update, or delete product details, and track stock levels.
+Order Management: Process and manage orders efficiently.
+Offer Management: Create and apply discounts or promotional campaigns.
 
-## How to Contribute
-We welcome contributions from the community! Please follow these steps:
-1. Fork the repository you want to contribute to.
-2. Create a feature branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m "Your message"`).
-4. Push to your branch (`git push origin feature-name`).
-5. Create a pull request.
+## System Architecture 
+
+### Client Side (Frontend)
+-Framework: React
+-Styling: Tailwind CSS or Material UI (MUI)
+-State Management: Redux or React Context API
+-HTTP Requests: Axios
+
+###Server-Side (Backend)
+-Framework: Spring Boot
+-Security: Spring Security with JWT-based authentication
+-Database Interaction: Spring Data JPA for ORM functionality
+
 
 
 Thank you for visiting AuraMart!
