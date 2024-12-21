@@ -25,7 +25,7 @@ Offer Management: Create and apply discounts or promotional campaigns.
 -State Management: Redux or React Context API
 -HTTP Requests: Axios
 
-###Server-Side (Backend)
+### Server-Side (Backend)
 -Framework: Spring Boot
 -Security: Spring Security with JWT-based authentication
 -Database Interaction: Spring Data JPA for ORM functionality
