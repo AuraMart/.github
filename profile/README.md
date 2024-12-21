@@ -20,16 +20,32 @@ Offer Management: Create and apply discounts or promotional campaigns.
 ## System Architecture 
 
 ### Client Side (Frontend)
--Framework: React
--Styling: Tailwind CSS or Material UI (MUI)
--State Management: Redux or React Context API
--HTTP Requests: Axios
+-**Framework**: React
+-**Styling**: Tailwind CSS or Material UI (MUI)
+-**State Management**: Redux or React Context API
+-**HTTP Requests**: Axios
 
-### Server-Side (Backend)
--Framework: Spring Boot
--Security: Spring Security with JWT-based authentication
--Database Interaction: Spring Data JPA for ORM functionality
+### Server Side (Backend)
+-**Framework**: Spring Boot
+-**Security**: Spring Security with JWT-based authentication
+-**Database Interaction**: Spring Data JPA for ORM functionality
 
+### Database
+**Type**: MySQL
+**Key Entities**:
+**User**: Stores customer and admin details.
+**Product**: Tracks product information, stock, and categories.
+**Order**: Manages order statuses, payment confirmations, and histories.
+**Cart**: Tracks items added by users for purchase.
+**Wishlist**: Stores items users intend to buy later.
+**Feedback**: Contains product reviews and ratings.
 
+### API Communication
+**Protocol**: RESTful APIs
+**Format**: JSON
+
+### Containerization
+**Tool**: Docker for containerizing the application components.
+**Orchestration**: Docker Compose for multi-container manageme
 
 Thank you for visiting AuraMart!
