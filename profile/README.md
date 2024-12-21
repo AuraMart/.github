@@ -13,39 +13,39 @@ AuraMart is a modern, scalable, and secure online shopping platform designed to 
 - Secure Payment Gateway: Seamless and secure payment integration.
 
 ### Admin Features
-Inventory Management: Add, update, or delete product details, and track stock levels.
-Order Management: Process and manage orders efficiently.
-Offer Management: Create and apply discounts or promotional campaigns.
+- Inventory Management: Add, update, or delete product details, and track stock levels.
+- Order Management: Process and manage orders efficiently.
+- Offer Management: Create and apply discounts or promotional campaigns.
 
 ## System Architecture 
 
 ### Client Side (Frontend)
--**Framework**: React
--**Styling**: Tailwind CSS or Material UI (MUI)
--**State Management**: Redux or React Context API
--**HTTP Requests**: Axios
+- **Framework**: React
+- **Styling**: Tailwind CSS or Material UI (MUI)
+- **State Management**: Redux or React Context API
+- **HTTP Requests**: Axios
 
 ### Server Side (Backend)
--**Framework**: Spring Boot
--**Security**: Spring Security with JWT-based authentication
--**Database Interaction**: Spring Data JPA for ORM functionality
+- **Framework**: Spring Boot
+- **Security**: Spring Security with JWT-based authentication
+- **Database Interaction**: Spring Data JPA for ORM functionality
 
 ### Database
-**Type**: MySQL
-**Key Entities**:
-**User**: Stores customer and admin details.
-**Product**: Tracks product information, stock, and categories.
-**Order**: Manages order statuses, payment confirmations, and histories.
-**Cart**: Tracks items added by users for purchase.
-**Wishlist**: Stores items users intend to buy later.
-**Feedback**: Contains product reviews and ratings.
+- **Type**: MySQL
+- **Key Entities**:
+- **User**: Stores customer and admin details.
+- **Product**: Tracks product information, stock, and categories.
+- **Order**: Manages order statuses, payment confirmations, and histories.
+- **Cart**: Tracks items added by users for purchase.
+- **Wishlist**: Stores items users intend to buy later.
+- **Feedback**: Contains product reviews and ratings.
 
 ### API Communication
-**Protocol**: RESTful APIs
-**Format**: JSON
+- **Protocol**: RESTful APIs
+- **Format**: JSON
 
 ### Containerization
-**Tool**: Docker for containerizing the application components.
-**Orchestration**: Docker Compose for multi-container manageme
+- **Tool**: Docker for containerizing the application components.
+- **Orchestration**: Docker Compose for multi-container manageme
 
-Thank you for visiting AuraMart!
+**Thank you for visiting AuraMart!**
