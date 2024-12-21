@@ -33,12 +33,12 @@ AuraMart is a modern, scalable, and secure online shopping platform designed to 
 ### Database
 - **Type**: MySQL
 - **Key Entities**:
-- **User**: Stores customer and admin details.
-- **Product**: Tracks product information, stock, and categories.
-- **Order**: Manages order statuses, payment confirmations, and histories.
-- **Cart**: Tracks items added by users for purchase.
-- **Wishlist**: Stores items users intend to buy later.
-- **Feedback**: Contains product reviews and ratings.
+     - **User**: Stores customer and admin details.
+     - **Product**: Tracks product information, stock, and categories.
+     - **Order**: Manages order statuses, payment confirmations, and histories.
+     - **Cart**: Tracks items added by users for purchase.
+     - **Wishlist**: Stores items users intend to buy later.
+     - **Feedback**: Contains product reviews and ratings.
 
 ### API Communication
 - **Protocol**: RESTful APIs
